@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: rgba(147, 165, 165, 0.301);
+    color: rgb(56, 55, 55)
+}
+
+button {
+    background-color: rgba(147, 165, 165, 0.034);
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 12px;
+    width: 200px;
+    font-size: 26px;
+    border-color: black;
+    box-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+    transition-duration: 810ms;
+}
+
+button:active {
+    color: rgb(186, 235, 235);
+    transition-duration: 0.1ms;
+}
+
+input {
+    outline: none;
+    background-color: rgba(147, 165, 165, 0.034);
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 12px;
+    width: 200px;
+    font-size: 26px;
+    border-color: black;
+    box-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+}
+
+input:hover {
+    background-color: black;
+    color: aliceblue;
+    transition-duration: 810ms;
+}
+
+input:active {
+    color: rgb(186, 235, 235);
+    transition-duration: 0.1ms;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+h2 {
+    text-shadow: 1.4px 2.1px 4px rgb(106, 172, 172);
+}
+
+#triangleValue {
+    position: absolute;
+    margin-left: 914px;
+    margin-top: 33vh;
+}
+
+section h1 {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 75px;
+}
+
+.triangle img {
+    height: 300px;
+    width: 600px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
